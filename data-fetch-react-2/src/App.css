@@ -1,0 +1,68 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 4px 5px 10px -3px rgb(0, 0, 0);
+  text-align: center;
+  background: #384358;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.card-profile h1 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.382) 0%,
+      rgba(0, 0, 0, 0.723) 100%
+    ),
+    url(../coding-profile-img.jpg) no-repeat center center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 60px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+#form-searching {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#text-initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
